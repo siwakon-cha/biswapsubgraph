@@ -4,7 +4,7 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ siwakon-cha/BiswapSubgraph",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ siwakon-cha/biswapsubgraph",
     "create-local": "graph create --node http://localhost:8020/ siwakon-cha/BiswapSubgraph",
     "remove-local": "graph remove --node http://localhost:8020/ siwakon-cha/BiswapSubgraph",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 siwakon-cha/BiswapSubgraph"
