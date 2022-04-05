@@ -1,0 +1,26 @@
+type Deposit @entity {
+  id: ID!
+  user: Bytes! # address
+  pid: BigInt! # uint256
+  amount: BigInt! # uint256
+}
+
+type EmergencyWithdraw @entity {
+  id: ID!
+  user: Bytes! # address
+  pid: BigInt! # uint256
+  amount: BigInt! # uint256
+}
+
+type OwnershipTransferred @entity {
+  id: ID!
+  previousOwner: Bytes! # address
+  newOwner: Bytes! # address
+}
+
+type Withdraw @entity {
+  id: ID!
+  user: Bytes! # address
+  pid: BigInt! # uint256
+  amount: BigInt! # uint256
+}

@@ -1,0 +1,16 @@
+{
+  "name": "BiswapSubgraph",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ siwakon-cha/BiswapSubgraph",
+    "create-local": "graph create --node http://localhost:8020/ siwakon-cha/BiswapSubgraph",
+    "remove-local": "graph remove --node http://localhost:8020/ siwakon-cha/BiswapSubgraph",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 siwakon-cha/BiswapSubgraph"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.29.0",
+    "@graphprotocol/graph-ts": "0.26.0"
+  }
+}
